@@ -114,6 +114,7 @@ li{
     justify-content: space-around;
     align-items: center;
     border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
 }
 .about .right-info-card{
     width:80%;
@@ -122,12 +123,14 @@ li{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    
 }
 
 .about .left-info-card img{
     border-radius: 10%;
     width: 150px;
     margin-top: 30px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
 }
 
 .about .left-info-card{
@@ -142,6 +145,7 @@ li{
     color: rgb(3,21,3);
     border-radius: 5px;
     padding: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
     
 }
 #background{
@@ -173,7 +177,7 @@ li{
 .progress_container{
     border-radius: 5px;
     height: 20px;
-    background-color: #969faa;
+    background-color: #dee1bd;
     width: 300px;
 
 }
@@ -181,6 +185,48 @@ li{
     border-radius: 5px;
     text-align:center;
     height: 20px;
-    background-color: #158900;
-    font-size :10px;
+    background-color: #39d51dca;
+    font-size :12px;
+    
+}
+
+.tools{
+    width: 70%;
+    min-height: 300px;
+    background-color: #f6f8fa;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+}
+.tools .toolcard{
+    margin: 10px 20px;
+    width: 300px;
+    height: 200px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 5px 5px 4px 2px rgba(0,0,0,0.5);
+    border-radius: 0 0 5px 0;
+    transition: transform 0.7s ;
+}
+
+.toolcard .toolcard_heading{
+    text-align: center;
+}
+.toolcard .toolcard_body{
+    color: #57606a;
+    text-align: center;
+
+}
+.tools .toolcard:hover{
+    transform: scale(1.1);
 }
