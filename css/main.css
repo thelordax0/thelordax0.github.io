@@ -78,7 +78,7 @@ li{
     display: flex;
     flex-direction: column;
     padding: 20px;
-    color: rgb(255, 255, 255);
+    color: #57606a;
     
 }
 
@@ -100,16 +100,17 @@ li{
     align-items: center;
 }
 .footer .top-footer{
-    border-bottom: 1px solid powderblue;
+    border-bottom: 1px solid #57606a;
 }
 
 .about{
     margin: 20px auto;
-    width: 50%;
+    width: 80%;
     min-height: 200px;
-    background-color: powderblue;
+    background-color: #f6f8fa;
     color: rgb(3, 21, 3);
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     border-radius: 5px;
@@ -124,7 +125,9 @@ li{
 }
 
 .about .left-info-card img{
-    border-radius: 50%;
+    border-radius: 10%;
+    width: 150px;
+    margin-top: 30px;
 }
 
 .about .left-info-card{
@@ -135,13 +138,14 @@ li{
 .contact{
     margin: 20px auto;
     width: 50%;
-    background-color: powderblue;
+    background-color: #f6f8fa;
     color: rgb(3,21,3);
     border-radius: 5px;
     padding: 20px;
     
 }
 #background{
+    background-color: #fff;
     position: absolute;
     left: 0;
     top: 0;
@@ -149,4 +153,34 @@ li{
     height: 100vh;
     z-index: -99;
     
+}
+
+.skill_bar{
+    padding: 10px 20px;
+    width: 45%;
+}
+.skill_bar .skill_table{
+    
+
+}
+.skill_bar .skill_table li{
+    padding: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.progress_container{
+    border-radius: 5px;
+    height: 20px;
+    background-color: #969faa;
+    width: 300px;
+
+}
+.progress_container .progress_bar{
+    border-radius: 5px;
+    text-align:center;
+    height: 20px;
+    background-color: #158900;
+    font-size :10px;
 }
