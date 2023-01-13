@@ -1,0 +1,10 @@
+.container{
+    width: 100%;
+}
+.about{
+    box-sizing: content-box;
+}
+.about p{
+    
+    padding:1rem 1rem ;
+}

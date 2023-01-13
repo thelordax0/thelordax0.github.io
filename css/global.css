@@ -1,0 +1,20 @@
+.bg-dark{
+    background-color: black;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.color-turquaze{
+    color: turquoise;
+}
+
+.text-center{
+    text-align: center;
+}
+body{
+    background: rgb(59, 139, 126);
+}

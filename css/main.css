@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Sofia Sans', sans-serif;
+    
+}
+
+.header{    
+    
+    
+    color: rgb(255, 255, 255);
+    
+}
+
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    padding :0.5rem 0.75rem;
+}
+
+.header nav div{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.header nav div a{
+    text-decoration: none;
+    color: inherit;
+    padding: 0.25rem 0.7rem;
+    
+}
+.header nav div a:hover{
+    text-decoration: underline;
+    
+    
+}
+
+.about {
+    
+    
+    padding: 1.2rem 1rem;
+    letter-spacing: 2px;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    cursor: default;
+}
+.about p{
+     
+    padding:3rem 3rem ;
+}
+.about p span{
+    word-wrap: break-word;
+}
+.about img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    align-self: center;
+}
+.contact{
+    background: rgb(59, 139, 126);
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+.contact .contact-link a{
+    padding: 1rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact .contact-link i{
+    font-size: 2rem;
+}
+
+.top-arrow{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 1px solid gainsboro;
+    background-color: cadetblue;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
